@@ -101,7 +101,7 @@ vim Cargo.toml
  68 [profile.release]
  ...
  71 # currently enabled, may increase build time, but runtime faster, can set to `"thin"`.
- 72 lto = true
+ 72 lto = "thin"
  ...
 ```
 Rebuild it
